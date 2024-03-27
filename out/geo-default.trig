@@ -1,0 +1,429 @@
+@prefix fx: <http://sparql.xyz/facade-x/ns/>.
+@prefix geo: <http://www.opengis.net/ont/geosparql#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix sf: <http://www.opengis.net/ont/sf#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix xyz: <http://sparql.xyz/facade-x/data/>.
+
+<https://example.org/table#point1> {
+<https://example.org/table#point1> a fx:root;
+    rdf:_1 _:df_2_0.
+_:df_2_0 xyz:id 1;
+    xyz:text "BIT Systems";
+    xyz:real 4.745322876873618E3;
+    xyz:boolean 1;
+    xyz:integer 1;
+    xyz:text_limited "bda50e81-15d9-4830-a52d-20edb003f57b";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.056Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_1.
+_:df_2_1 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.801918 39.720014)"^^geo:wktLiteral.
+<https://example.org/table#point1> rdf:_2 _:df_2_2.
+_:df_2_2 xyz:id 2;
+    xyz:text "Community College of Aurora CentreTech Campus";
+    xyz:real 3.65274819881229E3;
+    xyz:boolean 0;
+    xyz:integer 1;
+    xyz:text_limited "c0fed892-7988-488a-9364-172034a14224";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.066Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_3.
+_:df_2_3 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.802987 39.717703)"^^geo:wktLiteral.
+<https://example.org/table#point1> rdf:_3 _:df_2_4.
+_:df_2_4 xyz:id 3;
+    xyz:text "DeLaney Community Farm";
+    xyz:real 2.657713766933358E3;
+    xyz:boolean 1;
+    xyz:integer 1;
+    xyz:text_limited "586144e7-0c44-491a-89c3-fbf4e0ce9f4a";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.069Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_5.
+_:df_2_5 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.807496 39.714085)"^^geo:wktLiteral.
+<https://example.org/table#point1> rdf:_4 _:df_2_6.
+_:df_2_6 xyz:id 4;
+    xyz:text "Centre Hills Disc Golf Course";
+    xyz:real 3.589127113938985E3;
+    xyz:boolean 1;
+    xyz:integer 1;
+    xyz:text_limited "eff68f30-3d57-44db-af81-482c64069bee";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.073Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_7.
+_:df_2_7 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.79948 39.714729)"^^geo:wktLiteral
+}
+<https://example.org/table#line1> {
+<https://example.org/table#line1> a fx:root;
+    rdf:_1 _:df_2_8.
+_:df_2_8 xyz:id 1;
+    xyz:text "East Lockheed Drive";
+    xyz:real 1.485440458276137E3;
+    xyz:boolean 1;
+    xyz:integer 1;
+    xyz:text_limited "f5caf265-048d-45f5-9bcf-b60941e2c6f6";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.088Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_9.
+_:df_2_9 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-104.800614 39.720721,-104.802174 39.720726,-104.802584 39.72066,-104.803088 39.720477,-104.803474 39.720209)"^^geo:wktLiteral.
+<https://example.org/table#line1> rdf:_2 _:df_2_10.
+_:df_2_10 xyz:id 2;
+    xyz:text "E 1st Ave";
+    xyz:real 1.887302995680119E3;
+    xyz:boolean 1;
+    xyz:integer 1;
+    xyz:text_limited "a038a24e-3ddf-42b1-a779-be5f5a040a5e";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.093Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_11.
+_:df_2_11 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-104.809612 39.718379,-104.806638 39.718372,-104.806236 39.718439,-104.805939 39.718536,-104.805654 39.718677,-104.803652 39.720095)"^^geo:wktLiteral.
+<https://example.org/table#line1> rdf:_3 _:df_2_12.
+_:df_2_12 xyz:id 3;
+    xyz:text "E Centretech Cir";
+    xyz:real 2.172554174927463E3;
+    xyz:boolean 0;
+    xyz:integer 1;
+    xyz:text_limited "4a87c259-a319-4645-9d65-70e244ae05cc";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.123Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_13.
+_:df_2_13 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-104.806344 39.722425,-104.805854 39.722634,-104.805656 39.722647,-104.803749 39.722641,-104.803769 39.721849,-104.803806 39.721725,-104.804382 39.720865)"^^geo:wktLiteral
+}
+<https://example.org/table#polygon1> {
+<https://example.org/table#polygon1> a fx:root;
+    rdf:_1 _:df_2_14.
+_:df_2_14 xyz:id 1;
+    xyz:text "BIT Systems";
+    xyz:real 2.847513876137925E3;
+    xyz:boolean 1;
+    xyz:integer 2725;
+    xyz:text_limited "e3977cc6-58c2-46bb-b002-cabfb60dc893";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.141Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_15.
+_:df_2_15 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((-104.802246 39.720343,-104.802246 39.719753,-104.802183 39.719754,-104.802184 39.719719,-104.802138 39.719694,-104.802097 39.719691,-104.802096 39.719648,-104.801646 39.719648,-104.801644 39.719722,-104.80155 39.719723,-104.801549 39.720207,-104.801648 39.720207,-104.801648 39.720341,-104.802246 39.720343))"^^geo:wktLiteral.
+<https://example.org/table#polygon1> rdf:_2 _:df_2_16.
+_:df_2_16 xyz:id 2;
+    xyz:text "BIT Systems Visitor Parking";
+    xyz:real 1.556092087878615E3;
+    xyz:boolean 1;
+    xyz:integer 2725;
+    xyz:text_limited "8267b0ac-3bdf-45bb-99f3-344fe3226931";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.145Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_17.
+_:df_2_17 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((-104.802259 39.719604,-104.80226 39.71955,-104.802281 39.719416,-104.802332 39.719372,-104.802081 39.71924,-104.802044 39.71929,-104.802027 39.719278,-104.802044 39.719229,-104.801785 39.719129,-104.801639 39.719413,-104.801649 39.719472,-104.801694 39.719524,-104.801753 39.71955,-104.80175 39.719606,-104.80194 39.719606,-104.801939 39.719555,-104.801977 39.719556,-104.801979 39.719606,-104.802259 39.719604),(-104.80213 39.71944,-104.802133 39.71949,-104.802148 39.71949,-104.80218 39.719473,-104.802187 39.719456,-104.802182 39.719439,-104.802088 39.719387,-104.802047 39.719427,-104.801858 39.719342,-104.801883 39.719294,-104.801832 39.719284,-104.801787 39.719298,-104.801763 39.719331,-104.801823 39.719352,-104.80179 39.71942,-104.801722 39.719404,-104.801715 39.719445,-104.801748 39.719484,-104.801809 39.719494,-104.801816 39.719439,-104.80213 39.71944))"^^geo:wktLiteral.
+<https://example.org/table#polygon1> rdf:_3 _:df_2_18.
+_:df_2_18 xyz:id 3;
+    xyz:text "CCA Administration Building";
+    xyz:real 4.916205166114637E3;
+    xyz:boolean 0;
+    xyz:integer 2725;
+    xyz:text_limited "ba66ad9c-894f-4ed4-9379-d24cd7f83ba5";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.148Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_19.
+_:df_2_19 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((-104.802867 39.718122,-104.802369 39.717845,-104.802571 39.71763,-104.803066 39.717909,-104.802867 39.718122))"^^geo:wktLiteral
+}
+<https://example.org/table#geometry1> {
+<https://example.org/table#geometry1> a fx:root;
+    rdf:_1 _:df_2_20.
+_:df_2_20 xyz:id 1;
+    xyz:text "BIT Systems";
+    xyz:real 1.4533134069871E3;
+    xyz:boolean 0;
+    xyz:integer 5;
+    xyz:text_limited "432d6dc3-d8a7-48d0-9e38-e812a7ade45a";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.164Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_21.
+_:df_2_21 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.801918 39.720014)"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_2 _:df_2_22.
+_:df_2_22 xyz:id 2;
+    xyz:text "Community College of Aurora CentreTech Campus";
+    xyz:real 3.66842557990316E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "fbee98a1-09e4-4fce-995f-8c38377e4edf";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.167Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_23.
+_:df_2_23 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.802987 39.717703)"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_3 _:df_2_24.
+_:df_2_24 xyz:id 3;
+    xyz:text "DeLaney Community Farm";
+    xyz:real 2.239072490858794E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "0c6e3039-c628-43ff-a5c9-989f171f9118";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.170Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_25.
+_:df_2_25 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.807496 39.714085)"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_4 _:df_2_26.
+_:df_2_26 xyz:id 4;
+    xyz:text "Centre Hills Disc Golf Course";
+    xyz:real 1.348915520793957E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "fd9e85dd-789b-497d-8d45-c67e5d4eac38";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.173Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_27.
+_:df_2_27 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-104.79948 39.714729)"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_5 _:df_2_28.
+_:df_2_28 xyz:id 5;
+    xyz:text "East Lockheed Drive";
+    xyz:real 3.6472646685295E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "df982cc2-920e-4044-bf2d-5d008f99446a";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.176Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_29.
+_:df_2_29 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-104.800614 39.720721,-104.802174 39.720726,-104.802584 39.72066,-104.803088 39.720477,-104.803474 39.720209)"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_6 _:df_2_30.
+_:df_2_30 xyz:id 6;
+    xyz:text "E 1st Ave";
+    xyz:real 4.627595969399046E2;
+    xyz:boolean 0;
+    xyz:integer 5;
+    xyz:text_limited "863d5cc6-12c6-4821-a81c-de10cd7ec82f";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.181Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_31.
+_:df_2_31 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-104.809612 39.718379,-104.806638 39.718372,-104.806236 39.718439,-104.805939 39.718536,-104.805654 39.718677,-104.803652 39.720095)"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_7 _:df_2_32.
+_:df_2_32 xyz:id 7;
+    xyz:text "E Centretech Cir";
+    xyz:real 3.9613134860355E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "22fe62d9-73d3-4dfd-a1ac-bebbafb196ec";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.184Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_33.
+_:df_2_33 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-104.806344 39.722425,-104.805854 39.722634,-104.805656 39.722647,-104.803749 39.722641,-104.803769 39.721849,-104.803806 39.721725,-104.804382 39.720865)"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_8 _:df_2_34.
+_:df_2_34 xyz:id 8;
+    xyz:text "BIT Systems";
+    xyz:real 3.053299818566539E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "dbb4e0ec-7ca3-46ed-85ff-276a87528310";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.187Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_35.
+_:df_2_35 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((-104.802246 39.720343,-104.802246 39.719753,-104.802183 39.719754,-104.802184 39.719719,-104.802138 39.719694,-104.802097 39.719691,-104.802096 39.719648,-104.801646 39.719648,-104.801644 39.719722,-104.80155 39.719723,-104.801549 39.720207,-104.801648 39.720207,-104.801648 39.720341,-104.802246 39.720343))"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_9 _:df_2_36.
+_:df_2_36 xyz:id 9;
+    xyz:text "BIT Systems Visitor Parking";
+    xyz:real 2.582465299958069E3;
+    xyz:boolean 0;
+    xyz:integer 5;
+    xyz:text_limited "5745d00c-ce6e-4700-8276-0e51bc36ddae";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.190Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_37.
+_:df_2_37 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((-104.802259 39.719604,-104.80226 39.71955,-104.802281 39.719416,-104.802332 39.719372,-104.802081 39.71924,-104.802044 39.71929,-104.802027 39.719278,-104.802044 39.719229,-104.801785 39.719129,-104.801639 39.719413,-104.801649 39.719472,-104.801694 39.719524,-104.801753 39.71955,-104.80175 39.719606,-104.80194 39.719606,-104.801939 39.719555,-104.801977 39.719556,-104.801979 39.719606,-104.802259 39.719604),(-104.80213 39.71944,-104.802133 39.71949,-104.802148 39.71949,-104.80218 39.719473,-104.802187 39.719456,-104.802182 39.719439,-104.802088 39.719387,-104.802047 39.719427,-104.801858 39.719342,-104.801883 39.719294,-104.801832 39.719284,-104.801787 39.719298,-104.801763 39.719331,-104.801823 39.719352,-104.80179 39.71942,-104.801722 39.719404,-104.801715 39.719445,-104.801748 39.719484,-104.801809 39.719494,-104.801816 39.719439,-104.80213 39.71944))"^^geo:wktLiteral.
+<https://example.org/table#geometry1> rdf:_10 _:df_2_38.
+_:df_2_38 xyz:id 10;
+    xyz:text "CCA Administration Building";
+    xyz:real 5.775001234286425E2;
+    xyz:boolean 0;
+    xyz:integer 5;
+    xyz:text_limited "582aa674-5856-43d3-865a-859761efc6c9";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.193Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_39.
+_:df_2_39 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((-104.802867 39.718122,-104.802369 39.717845,-104.802571 39.71763,-104.803066 39.717909,-104.802867 39.718122))"^^geo:wktLiteral
+}
+<https://example.org/table#point2> {
+<https://example.org/table#point2> a fx:root;
+    rdf:_1 _:df_2_40.
+_:df_2_40 xyz:id 1;
+    xyz:text "NGA";
+    xyz:real 2.783749125118904E3;
+    xyz:boolean 0;
+    xyz:integer 9;
+    xyz:text_limited "55c6d2de-2a78-4932-ba66-7a4c6fe75b4b";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.205Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_41.
+_:df_2_41 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-77.196736 38.75337)"^^geo:wktLiteral
+}
+<https://example.org/table#line2> {
+<https://example.org/table#line2> a fx:root;
+    rdf:_1 _:df_2_42.
+_:df_2_42 xyz:id 1;
+    xyz:text "NGA";
+    xyz:real 3.469347545033565E3;
+    xyz:boolean 1;
+    xyz:integer 2454;
+    xyz:text_limited "bd73dde9-a414-4f46-9b9e-6435d4f59a7b";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.219Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_43.
+_:df_2_43 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-77.19665 38.756501,-77.196414 38.755979,-77.195518 38.755208,-77.195303 38.755272,-77.195351 38.755459,-77.195863 38.755697,-77.196328 38.756069,-77.196568 38.756526)"^^geo:wktLiteral
+}
+<https://example.org/table#geometry2> {
+<https://example.org/table#geometry2> a fx:root;
+    rdf:_1 _:df_2_44.
+_:df_2_44 xyz:id 1;
+    xyz:text "NGA";
+    xyz:real 1.89926642347523E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "e1c03bd5-1c53-46fa-93d7-51bed67de103";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.310Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_45.
+_:df_2_45 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-77.196736 38.75337)"^^geo:wktLiteral.
+<https://example.org/table#geometry2> rdf:_2 _:df_2_46.
+_:df_2_46 xyz:id 2;
+    xyz:text "NGA";
+    xyz:real 2.929344345661797E3;
+    xyz:boolean 1;
+    xyz:integer 5;
+    xyz:text_limited "0e8884fa-b4f7-4371-ac19-6246f632d727";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.315Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_47.
+_:df_2_47 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> LINESTRING(-77.19665 38.756501,-77.196414 38.755979,-77.195518 38.755208,-77.195303 38.755272,-77.195351 38.755459,-77.195863 38.755697,-77.196328 38.756069,-77.196568 38.756526)"^^geo:wktLiteral.
+<https://example.org/table#geometry2> rdf:_3 _:df_2_48.
+_:df_2_48 xyz:id 3;
+    xyz:text "NGA Visitor Center";
+    xyz:real 4.017892788518386E3;
+    xyz:boolean 0;
+    xyz:integer 5;
+    xyz:text_limited "2681c995-04ff-43c6-a2b5-99c96a0fbf6a";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:34.319Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_49.
+_:df_2_49 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POLYGON((-77.195299 38.755159,-77.195203 38.75508,-77.19541 38.75493,-77.19535 38.754884,-77.195228 38.754966,-77.195135 38.754889,-77.195048 38.754956,-77.194986 38.754906,-77.194897 38.754976,-77.194953 38.755025,-77.194763 38.755173,-77.194827 38.755224,-77.195012 38.755082,-77.195041 38.755104,-77.195028 38.755116,-77.19509 38.755167,-77.195106 38.755154,-77.195205 38.755233,-77.195299 38.755159))"^^geo:wktLiteral
+}
+<https://example.org/table#non_linear_geometries> {
+<https://example.org/table#non_linear_geometries> a fx:root;
+    rdf:_1 _:df_2_50.
+_:df_2_50 xyz:id 1;
+    xyz:text "circularstring";
+    xyz:real 2.250800830554267E3;
+    xyz:boolean 1;
+    xyz:integer 492;
+    xyz:text_limited "ee9c1549-2de9-47c9-bd8d-a1b34ed29ad5";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:47.538Z";
+    a geo:Feature.
+<https://example.org/table#non_linear_geometries> rdf:_2 _:df_2_51.
+_:df_2_51 xyz:id 2;
+    xyz:text "compoundcurve";
+    xyz:real 2.829041810921172E3;
+    xyz:boolean 1;
+    xyz:integer 371;
+    xyz:text_limited "c428cf53-8034-4693-ac3e-8a85cbce16ab";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:47.540Z";
+    a geo:Feature.
+<https://example.org/table#non_linear_geometries> rdf:_3 _:df_2_52.
+_:df_2_52 xyz:id 3;
+    xyz:text "curvepolygon";
+    xyz:real 4.841745003207179E3;
+    xyz:boolean 1;
+    xyz:integer 169;
+    xyz:text_limited "2bbb2faf-fdfb-47a7-b246-a290777b7941";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:47.542Z";
+    a geo:Feature.
+<https://example.org/table#non_linear_geometries> rdf:_4 _:df_2_53.
+_:df_2_53 xyz:id 4;
+    xyz:text "multicurve";
+    xyz:real 3.045493705346161E3;
+    xyz:boolean 0;
+    xyz:integer 148;
+    xyz:text_limited "eb7e7e56-6aa2-4b72-bc04-5d6d37851532";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:47.545Z";
+    a geo:Feature.
+<https://example.org/table#non_linear_geometries> rdf:_5 _:df_2_54.
+_:df_2_54 xyz:id 5;
+    xyz:text "multisurface";
+    xyz:real 2.824645023924205E3;
+    xyz:boolean 1;
+    xyz:integer 412;
+    xyz:text_limited "53068925-dc94-4fc2-b737-882649a19d72";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:47.547Z";
+    a geo:Feature;
+    geo:hasDefaultGeometry _:df_2_55.
+_:df_2_55 a geo:Geometry;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> MULTIPOLYGON(((-122.358 47.653,-122.348 47.649,-122.348 47.658,-122.358 47.658,-122.358 47.653)))"^^geo:wktLiteral.
+<https://example.org/table#non_linear_geometries> rdf:_6 _:df_2_56.
+_:df_2_56 xyz:id 6;
+    xyz:text "curve";
+    xyz:real 4.195883280175995E3;
+    xyz:boolean 0;
+    xyz:integer 434;
+    xyz:text_limited "557b8d22-d6e3-4d10-b3fb-d0e2e2c81903";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:47.549Z";
+    a geo:Feature.
+<https://example.org/table#non_linear_geometries> rdf:_7 _:df_2_57.
+_:df_2_57 xyz:id 7;
+    xyz:text "surface";
+    xyz:real 4.562032536074225E3;
+    xyz:boolean 1;
+    xyz:integer 118;
+    xyz:text_limited "2f0acaa6-f26f-475c-8e50-e051a8717876";
+    xyz:date "2023-01-23";
+    xyz:datetime "2023-01-23T21:44:47.551Z";
+    a geo:Feature
+}
